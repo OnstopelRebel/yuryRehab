@@ -1,0 +1,11 @@
+body {
+  font-size: $base-font-size;
+  font-family: Arial, serif;
+  line-height: 1.5;
+  background: url("../img/photo1.png") no-repeat;
+
+  @include ph {
+    color: tomato;
+    background-color: cornflowerblue;
+  }
+}

@@ -1,0 +1,10 @@
+.title {
+  text-transform: lowercase;
+  color: brown;
+
+  @include ph {
+    color: tomato;
+    background-color: cornflowerblue;
+    text-align: right;
+  }
+}
