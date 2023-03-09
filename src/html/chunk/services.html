@@ -1,0 +1,34 @@
+<section class="services">
+  <h2 class="visually-hidden">Онлайн-консультации и запись на прием</h2>
+
+  <div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingOne">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#consultation" aria-expanded="false" aria-controls="flush-collapseOne">
+          онлайн-консультации
+        </button>
+      </h2>
+      <div id="consultation" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+
+          @@include("consultation.html")
+
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#appointment" aria-expanded="false" aria-controls="flush-collapseTwo">
+          запись на прием
+        </button>
+      </h2>
+      <div id="appointment" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+
+          @@include("appointment.html")
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
