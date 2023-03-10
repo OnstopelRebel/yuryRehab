@@ -1,0 +1,16 @@
+.telegram {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.telegram__link {
+  display: block;
+  padding: 18px;
+  width: 100%;
+  text-align: center;
+  background-color: #03c6fc;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
