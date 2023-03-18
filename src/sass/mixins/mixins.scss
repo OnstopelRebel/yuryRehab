@@ -23,3 +23,9 @@
   font-size: $font-size;
   line-height: $line-height;
 }
+
+//Box-shadow
+
+@mixin blockShadows() {
+  box-shadow: 0 4px 24px $blockShadow-color;
+}
