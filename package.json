@@ -2,6 +2,7 @@
   "name": "sasstemplate",
   "version": "1.0.0",
   "description": "My Own Template",
+  "homepage": "https://OnstopelRebel.github.io/yuryRehab",
   "main": "index.js",
   "type": "module",
   "author": "Saenkov Andrey",
@@ -30,10 +31,12 @@
     "stylelint": "stylelint \"source/sass/**/*.scss\" --syntax scss",
     "test": "npm run editorconfig & npm run stylelint & eslint source/js/",
     "start": "gulp",
-    "build": "gulp --production"
+    "build": "gulp --production",
+    "deploy": "gh-pages -d public"
   },
   "dependencies": {
     "autoprefixer": "^10.4.12",
+    "gh-pages": "^5.0.0",
     "gulp": "^4.0.2",
     "gulp-cli": "^2.3.0",
     "gulp-file-include": "^2.3.0",
