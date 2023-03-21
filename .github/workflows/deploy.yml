@@ -1,4 +1,4 @@
-name: Blazing fast GitHub Pages deploy
+name: Build an Deploy
 
 on:
   push:
@@ -6,16 +6,19 @@ on:
       - main
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
+    concurrency: ci-${{github.ref}}
     steps:
-      - uses: actions/checkout@main
-      - name: npm install, test and build
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install
         run: |
-          npm install
-          npm run test
+          npm ci
           npm run build
-      - name: Deploy site to gh-pages branch
-        uses: alex-page/blazing-fast-gh-pages-deploy@v1.1.0
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          repo-token: ${{ secrets.GH_PAT }}
+          folder: public
