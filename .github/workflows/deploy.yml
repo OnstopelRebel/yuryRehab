@@ -1,4 +1,30 @@
-name: Build an Deploy
+#name: Build an Deploy
+#
+#on:
+#  push:
+#    branches:
+#      - main
+#
+#jobs:
+#  build-and-deploy:
+#    runs-on: ubuntu-latest
+#    concurrency: ci-${{github.ref}}
+#    steps:
+#      - name: Checkout
+#        uses: actions/checkout@v3
+#
+#      - name: Install
+#        run: |
+#          npm i
+#          npm run build
+#
+#      - name: Deploy 🚀
+#        uses: JamesIves/github-pages-deploy-action@v4
+#        with:
+#          folder: .
+#          ssh-key: true
+
+name: Blazing fast GitHub Pages deploy
 
 on:
   push:
@@ -6,20 +32,15 @@ on:
       - main
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
-    concurrency: ci-${{github.ref}}
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-
-      - name: Install
+      - uses: actions/checkout@main
+      - name: npm install, test and build
         run: |
-          npm i
+          npm install
           npm run build
-
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Deploy site to gh-pages branch
+        uses: alex-page/blazing-fast-gh-pages-deploy@v1.1.0
         with:
-          folder: .
-          ssh-key: true
+          repo-token: ${{ secrets.GH_PAT }}
