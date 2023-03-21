@@ -33,11 +33,11 @@
 }
 
 .expertise__title {
-  @include montserrat-600(20px, 32px);
+  @include montserrat-500(22px, 32px);
 }
 
 .expertise__text {
-  @include montserrat-400(22px, 24px);
+  @include montserrat-400(20px, 24px);
   max-width: 90%;
 }
 
