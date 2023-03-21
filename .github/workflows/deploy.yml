@@ -21,8 +21,7 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: ./public
-          branch: main
+          folder: ./
           ssh-key: true
 
 #name: Blazing fast GitHub Pages deploy
