@@ -61,6 +61,7 @@ export { font };
 export { clear };
 export { svgmin };
 export { sprite };
+export { build };
 
 // Разработка
 
