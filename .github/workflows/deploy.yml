@@ -23,7 +23,7 @@ jobs:
         with:
           folder: public
           branch: main
-          ssh-key: true
+          ssh-key: ${{ secrets.DEPLOY_KEY }}
 
 #name: Blazing fast GitHub Pages deploy
 #
