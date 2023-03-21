@@ -41,15 +41,13 @@
   max-width: 90%;
 }
 
-.expertise__images-wrapper {
-  display: flex;
-  justify-content: space-around;
-  align-self: center;
+.expertise__images-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   width: 100%;
 
   &--eos {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, auto);
     column-gap: 20px;
     row-gap-gap: 30px;
@@ -60,7 +58,7 @@
   @include blockShadows();
 
   &--cert {
-   max-width: 350px;
+   width: 98.3%;
   }
 
   &--diploma {
@@ -77,19 +75,17 @@
 }
 
 .expertise__image-wrapper {
-  width: 100%;
+  width: 81%;
   justify-self: center;
 
   &--certificate {
     grid-column: 2/3;
     grid-row: 1/2;
-    width: 81%;
   }
 
   &--princess {
     grid-column: 2/3;
     grid-row: 2/3;
-    width: 81%;
     align-self: end;
   }
 
@@ -97,6 +93,7 @@
     grid-column: 1/2;
     grid-row: 1/-1;
     align-self: center;
+    width: 100%;
   }
 }
 
