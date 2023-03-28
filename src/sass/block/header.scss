@@ -22,3 +22,11 @@
   align-items: center;
   padding: 20px 0;
 }
+
+.header__name {
+  @include montserrat-600(36px, 38px);
+}
+
+.header__description {
+  @include montserrat-500(18px, 18px);
+}

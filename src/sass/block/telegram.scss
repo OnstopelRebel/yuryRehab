@@ -5,6 +5,8 @@
 }
 
 .telegram__link {
+  position: relative;
+  @include montserrat-600(20px, 22px);
   display: block;
   padding: 18px;
   width: 100%;
@@ -13,4 +15,14 @@
   color: #fff;
   text-transform: uppercase;
   border-radius: 5px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 30%;
+    transform: translateY(-25%);
+    width: 32px;
+    height: 32px;
+    background: url("/img/telegram-icon-2.svg") no-repeat center;
+  }
 }
