@@ -1,0 +1,7 @@
+.text {
+  @include montserrat-400(20px, 24px);
+}
+
+.text__justify {
+  text-align: justify;
+}
