@@ -1,0 +1,33 @@
+.symptom-card {
+
+  &:not(:last-of-type) {
+    margin-bottom: 10px;
+  }
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  grid-row-gap: 20px;
+}
+
+.symptom-card__title {
+  grid-column: 1/2;
+}
+
+.symptom-card__img-container {
+  grid-column: 1/2;
+  align-self: center;
+}
+
+.symptom-card__list {
+  grid-column: 2/3;
+  list-style: disc;
+  justify-self: center;
+}
+
+.symptom-card__item {
+
+  &:not(:last-of-type) {
+    margin-bottom: 10px;
+  }
+}
