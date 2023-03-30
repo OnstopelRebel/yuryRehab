@@ -1,10 +1,13 @@
 .telegram {
+
   display: flex;
   justify-content: center;
   width: 100%;
+
 }
 
 .telegram__link {
+
   position: relative;
   @include montserrat-600(20px, 22px);
   display: block;
@@ -16,13 +19,11 @@
   text-transform: uppercase;
   border-radius: 5px;
 
-  &::before {
-    content: '';
-    position: absolute;
-    left: 30%;
-    transform: translateY(-25%);
-    width: 32px;
-    height: 32px;
-    background: url("./img/telegram-icon-2.svg") no-repeat center;
-  }
+}
+
+.telegram__icon {
+
+  display: inline-block;
+  transform: translateX(-50%);
+
 }
