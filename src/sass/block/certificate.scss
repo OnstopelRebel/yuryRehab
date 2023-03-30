@@ -87,4 +87,9 @@
   }
 }
 
+.certificate__img {
+
+  @include blockShadows();
+  border: 1px solid $blockBorder-color;
+}
 
