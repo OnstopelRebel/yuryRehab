@@ -3,7 +3,6 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(4, auto);
   gap: 15px;
-  max-width: 1000px;
   margin: 0 auto;
 
   &--cpecial {
@@ -23,7 +22,6 @@
   }
 
   &--single {
-    max-width: 490px;
   }
 }
 
@@ -66,14 +64,14 @@
     grid-column: 2/3;
     grid-row: 3/4;
     align-self: end;
-    justify-self: center;
+    justify-self: start;
   }
 
   &--princess {
     grid-column: 2/3;
     grid-row: 4/5;
     align-self: start;
-    justify-self: center;
+    justify-self: start;
   }
 
   &--diploma {
