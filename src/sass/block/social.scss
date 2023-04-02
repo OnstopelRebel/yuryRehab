@@ -1,8 +1,39 @@
 .social {
-  padding: 50px;
+
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  margin: 0 auto;
+
 }
 
 .social__list {
+
   display: flex;
-  gap: 8px;
+  justify-content: center;
+  gap: 12px;
+  padding: 25px 25px 30px;
+  border-radius: 25px;
+  transition: all 400ms ease-out;
+
+
+  &:hover {
+    @include blockShadows();
+
+  }
+
 }
+
+.social__icon {
+
+  fill: $social-icons-color;
+  transition: all 200ms ease-out;
+
+  &:hover {
+    fill: $social-icons-color-hover;
+    transform: scale(1.3);
+  }
+
+}
+
+

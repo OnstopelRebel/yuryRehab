@@ -17,3 +17,9 @@
 
 }
 
+.accordion-item:last-of-type .accordion-button.collapsed {
+
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+
+}
