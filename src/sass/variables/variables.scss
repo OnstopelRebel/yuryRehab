@@ -1,4 +1,3 @@
-$base-font-size: 28px;
 
 // Colors
 
@@ -15,6 +14,17 @@ $text-gray-color:        #444444;
 $mobile-width:                            767px;
 $tablet-width:                           1023px;
 
-//Padding
+// Padding
 
 $blockPadding:                            20px;
+
+// Fonts
+
+$base-text-height:              0.65rem;
+$base-text-line-height:         0.8rem;
+
+$base-subtitle-height:          0.85rem;
+$base-subtitle-line-height:     1.1rem;
+
+$base-title-height:             1.25rem;
+$base-title-line-height:        1.5rem;

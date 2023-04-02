@@ -23,7 +23,7 @@
     <div class="accordion-item">
       <h2 class="accordion-header" id="flush-headingTwo">
         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          <span class="title title__button">Опыт</span>
+          <span class="title title__button">Специализация</span>
         </button>
       </h2>
       <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
@@ -37,25 +37,10 @@
     <div class="accordion-item">
       <h2 class="accordion-header" id="flush-headingThree">
         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          <span class="title title__button">Показания к сеансу</span>
+          <span class="title title__button">Лечение</span>
         </button>
       </h2>
       <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-
-          @@include("indications.html")
-
-        </div>
-      </div>
-    </div>
-
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="flush-headingFour">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-          <span class="title title__button">Рекомендации пациенту</span>
-        </button>
-      </h2>
-      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
         <div class="accordion-body">
 
           @@include("recommendations.html")
@@ -65,9 +50,24 @@
     </div>
 
     <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingFour">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          <span class="title title__button">Показания</span>
+        </button>
+      </h2>
+      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+
+          @@include("indications.html")
+
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
       <h2 class="accordion-header" id="flush-headingFive">
         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-          <span class="title title__button">Как проходит лечение</span>
+          <span class="title title__button">Отзывы</span>
         </button>
       </h2>
       <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
@@ -82,25 +82,10 @@
     <div class="accordion-item">
       <h2 class="accordion-header" id="flush-headingSix">
         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-          <span class="title title__button">Онлайн-консультации</span>
+          <span class="title title__button">Запись</span>
         </button>
       </h2>
       <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-
-          @@include("consultation.html")
-
-        </div>
-      </div>
-    </div>
-
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="flush-headingSeven">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-          <span class="title title__button">Запись на прием</span>
-        </button>
-      </h2>
-      <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
         <div class="accordion-body">
 
           @@include("appointment.html")
@@ -110,7 +95,5 @@
     </div>
 
   </div>
-
-  @@include("social.html")
 
 </main>

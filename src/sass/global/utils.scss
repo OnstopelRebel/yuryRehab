@@ -1,21 +1,22 @@
-.wrapper {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  min-width: 320px;
+header,
+footer {
+
+  flex-shrink: 0;
+
 }
 
-.header,
-.footer {
-  flex-shrink: 0;
+footer {
+  margin-top: auto;
 }
 
 main {
+
   flex-grow: 1;
+
 }
 
 .visually-hidden {
+
   position: absolute;
   width: 1px;
   height: 1px;
@@ -24,6 +25,7 @@ main {
   border: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
+
 }
 
 

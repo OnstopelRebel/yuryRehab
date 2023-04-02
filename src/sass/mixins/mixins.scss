@@ -1,36 +1,43 @@
 // Fonts
 
-@mixin montserrat-400($font-size: 16px, $line-height: 24px) {
+@mixin montserrat-400($font-size: $base-text-height, $line-height: $base-text-line-height, $text-color: $text-gray-color) {
+
   font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: $font-size;
   line-height: $line-height;
-  color: $text-gray-color;
+  color: $text-color;
+
 }
 
-@mixin montserrat-500($font-size: 16px, $line-height: 19px) {
+@mixin montserrat-500($font-size: $base-subtitle-height, $line-height: $base-subtitle-line-height, $text-color: $text-gray-color) {
+
   font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: $font-size;
   line-height: $line-height;
-  color: $text-gray-color;
+  color: $text-color;
+
 
 }
 
-@mixin montserrat-600($font-size: 28px, $line-height: 42px) {
+@mixin montserrat-600($font-size: $base-title-height, $line-height: $base-title-line-height, $text-color: $text-gray-color) {
+
   font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 600;
   font-style: normal;
   font-size: $font-size;
   line-height: $line-height;
-  color: $text-gray-color;
+  color: $text-color;
 
 }
 
 //Box-shadow
 
 @mixin blockShadows() {
+
   box-shadow: 0 4px 24px $blockShadow-color;
+
 }

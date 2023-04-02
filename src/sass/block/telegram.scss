@@ -9,13 +9,12 @@
 .telegram__link {
 
   position: relative;
-  @include montserrat-600(16px, 16px);
+  @include montserrat-600(0.6rem, 1rem, $color-white);
   display: block;
-  padding: 18px;
+  padding: 1em;
   width: 100%;
   text-align: center;
   background-color: $color-blue;
-  color: #fff;
   text-transform: uppercase;
   border-radius: 5px;
 
