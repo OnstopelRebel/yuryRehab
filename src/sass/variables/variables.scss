@@ -22,6 +22,8 @@ $blockPadding:                  20px;
 
 // Fonts
 
+// Desktop
+
 $base-text-height:              0.65rem;
 $base-text-line-height:         0.8rem;
 
@@ -30,3 +32,14 @@ $base-subtitle-line-height:     1.1rem;
 
 $base-title-height:             1.25rem;
 $base-title-line-height:        1.5rem;
+
+// Mobile
+
+$mobile-text-height:              0.65rem;
+$mobile-text-line-height:         0.8rem;
+
+$mobile-subtitle-height:          1.25rem;
+$mobile-subtitle-line-height:     1.5rem;
+
+$mobile-title-height:             1.25rem;
+$mobile-title-line-height:        1.5rem;

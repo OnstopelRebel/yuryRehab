@@ -2,6 +2,13 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+
+  @media (max-width: $mobile-width) {
+
+    min-height: fit-content;
+
+  }
+
 }
 
 .accordion-body {
@@ -14,6 +21,12 @@
 .accordion-button {
 
   padding: 0.5em 0.75em;
+
+  @media (max-width: $mobile-width) {
+
+    padding: 1.25em 1.5em
+
+  }
 
 }
 
