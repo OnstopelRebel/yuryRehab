@@ -1,0 +1,31 @@
+@media (max-width: $mobile-width) {
+
+  .telegram {
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+  }
+
+  .telegram__link {
+
+    position: relative;
+    @include montserrat-500(0.9rem, 1.5rem, $color-white);
+    display: block;
+    padding: 1em;
+    width: 100%;
+    text-align: center;
+    background-color: $color-blue;
+    text-transform: uppercase;
+    border-radius: 5px;
+
+  }
+
+  .telegram__icon {
+
+    display: inline-block;
+    transform: translateX(-50%);
+
+  }
+}

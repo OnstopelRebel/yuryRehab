@@ -6,7 +6,7 @@ import notify from "gulp-notify";
 import fileInclude from "gulp-file-include";
 import size from "gulp-size";
 import htmlMin from "gulp-htmlmin";
-import webpHtml from "gulp-webp-html";
+// import webpHtml from "gulp-webp-html";
 import path from "../config/path.js";
 import app from "../config/app.js";
 
@@ -19,7 +19,7 @@ export default () => {
       }))
     }))
     .pipe(fileInclude())
-    .pipe(webpHtml())
+    // .pipe(webpHtml())
     .pipe(size({ title: "Before" }))
     .pipe(htmlMin(app.htmlmin))
     .pipe(size({ title: "After" }))

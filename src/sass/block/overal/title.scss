@@ -2,10 +2,4 @@
 
   @include montserrat-500();
 
-  @media (max-width: $mobile-width) {
-
-    @include montserrat-500($mobile-subtitle-height, $mobile-subtitle-line-height);
-
-  }
-
 }

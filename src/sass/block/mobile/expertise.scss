@@ -1,0 +1,17 @@
+.expertise {
+  padding: $blockPadding 0;
+}
+
+.expertise__accordion {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.expertise__wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin: 0 auto;
+}
+

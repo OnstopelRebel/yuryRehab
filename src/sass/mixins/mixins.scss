@@ -23,10 +23,10 @@
 
 }
 
-@mixin montserrat-600($font-size: $base-title-height, $line-height: $base-title-line-height, $text-color: $text-gray-color) {
+@mixin montserrat-700($font-size: $base-title-height, $line-height: $base-title-line-height, $text-color: $text-gray-color) {
 
   font-family: "Montserrat", "Arial", sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   font-style: normal;
   font-size: $font-size;
   line-height: $line-height;

@@ -1,0 +1,32 @@
+@media (max-width: $mobile-width) {
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    min-height: fit-content;
+    max-width: 100%;
+
+
+
+  }
+
+  .accordion-body {
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+  }
+
+  .accordion-button {
+
+      padding: 1.25em 1.5em
+
+  }
+
+  .accordion-item:last-of-type .accordion-button.collapsed {
+
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+
+  }
+}
