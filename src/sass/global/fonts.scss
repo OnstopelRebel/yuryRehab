@@ -30,3 +30,23 @@
     url('../fonts/montserrat-700.woff2') format("woff2"),
     url('../fonts/montserrat-700.woff') format("woff");
 }
+
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Nunito";
+  font-display: swap;
+  src:
+    url('../fonts/nunito-400.woff2') format("woff2"),
+    url('../fonts/nunito-400.woff') format("woff");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 500;
+  font-family: "Nunito";
+  font-display: swap;
+  src:
+    url('../fonts/nunito-500.woff2') format("woff2"),
+    url('../fonts/nunito-500.woff') format("woff");
+}

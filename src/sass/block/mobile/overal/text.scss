@@ -1,7 +1,11 @@
-.text {
-  @include montserrat-400();
-}
+@media (max-width: $mobile-width) {
 
-.text__justify {
-  text-align: justify;
+  .text {
+    @include montserrat-400($mobile-text-height, $mobile-text-line-height);
+  }
+
+  .text__justify {
+    text-align: justify;
+  }
+
 }
