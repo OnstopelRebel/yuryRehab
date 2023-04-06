@@ -1,6 +1,7 @@
-.block {
-  padding: 30px;
-  border: 1px solid $blockBorder-color;
-  border-radius: 25px;
-  @include blockShadows();
+@media (max-width: $mobile-width) {
+
+  .block {
+    padding: 1em;
+  }
+
 }

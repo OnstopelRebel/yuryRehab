@@ -1,5 +1,5 @@
 .block {
-  padding: 30px;
+  padding: 1.5em;
   border: 1px solid $blockBorder-color;
   border-radius: 25px;
   @include blockShadows();
