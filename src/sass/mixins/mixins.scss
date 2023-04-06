@@ -1,6 +1,6 @@
 // Fonts
 
-@mixin montserrat-400($font-size: $base-text-height, $line-height: $base-text-line-height, $text-color: $text-gray-color) {
+@mixin montserrat-400($font-size: $base-text, $line-height: $base-text-line-height, $text-color: $text-gray-color) {
 
   font-family: "Nunito", "Arial", sans-serif;
   font-weight: 400;
@@ -11,7 +11,7 @@
 
 }
 
-@mixin montserrat-500($font-size: $base-subtitle-height, $line-height: $base-subtitle-line-height, $text-color: $text-gray-color) {
+@mixin montserrat-500($font-size: $base-subtitle-large, $line-height: $base-line-height, $text-color: $text-gray-color) {
 
   font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 500;
@@ -23,7 +23,7 @@
 
 }
 
-@mixin montserrat-700($font-size: $base-title-height, $line-height: $base-title-line-height, $text-color: $text-gray-color) {
+@mixin montserrat-700($font-size: $base-title, $line-height: $base-line-height, $text-color: $text-gray-color) {
 
   font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 700;
@@ -34,30 +34,8 @@
 
 }
 
-//@mixin nunito-400($font-size: $base-text-height, $line-height: $base-text-line-height, $text-color: $text-gray-color) {
-//
-//  font-family: "Nunito", "Arial", sans-serif;
-//  font-weight: 400;
-//  font-style: normal;
-//  font-size: $font-size;
-//  line-height: $line-height;
-//  color: $text-color;
-//
-//}
-//
-//@mixin nunito-500($font-size: $base-text-height, $line-height: $base-text-line-height, $text-color: $text-gray-color) {
-//
-//  font-family: "Nunito", "Arial", sans-serif;
-//  font-weight: 500;
-//  font-style: normal;
-//  font-size: $font-size;
-//  line-height: $line-height;
-//  color: $text-color;
-//
-//}
-
 //Box-shadow
-
+//m
 @mixin blockShadows() {
 
   box-shadow: 0 4px 24px $blockShadow-color;

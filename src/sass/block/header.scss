@@ -16,8 +16,8 @@
 .header__img {
 
   object-fit: cover;
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
 
 }
@@ -39,6 +39,6 @@
 
 .header__description {
 
-  @include montserrat-500(0.75rem, 1.1rem);
+  @include montserrat-500($base-subtitle-medium);
 
 }
