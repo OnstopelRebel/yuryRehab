@@ -7,7 +7,7 @@ $spare-background:              cornflowerblue;
 $overlay-background:            rgba(0, 43, 102, 0.5);
 $blockShadow-color:             rgba(0, 0, 0, .05);
 $blockBorder-color:             rgba(0, 0, 0, .08);
-$text-gray-color:               #444444;
+$text-gray-color:               #5c5c5c;
 $social-icons-color:            rgba(71, 74, 79, .7);
 $social-icons-color-hover:      rgba(71, 74, 79, .9);
 
@@ -24,22 +24,23 @@ $blockPadding:                  20px;
 
 // Desktop
 
-$base-text-height:              0.65rem;
-$base-text-line-height:         0.8rem;
+$base-text:                     0.65rem;
+$base-text-line-height:         calc($base-text + 20%);
 
-$base-subtitle-height:          0.85rem;
-$base-subtitle-line-height:     1.1rem;
+$base-subtitle-large:           1.25rem;
+$base-subtitle-medium:          0.8rem;
+$base-subtitle-small:           0.64rem;
+$base-line-height:              1.3rem;
 
-$base-title-height:             1.25rem;
-$base-title-line-height:        1.5rem;
+$base-title:                    1.563rem;
 
 // Mobile
 
-$mobile-text-height:              0.85rem;
-$mobile-text-line-height:         0.9rem;
+$mobile-text:                   0.85rem;
+$mobile-text-line-height:       calc($mobile-text + 20%);
 
-$mobile-subtitle-height:          1.25rem;
-$mobile-subtitle-line-height:     1.5rem;
+$mobile-subtitle-large:         1.2rem;
+$mobile-subtitle-medium:        0.833rem;
+$mobile-subtitle-small:         0.694rem;
 
-$mobile-title-height:             1.72rem;
-$mobile-title-line-height:        2rem;
+$mobile-title:                  1.728rem;

@@ -1,6 +1,5 @@
 @media (max-width: $mobile-width) {
 
-
   .header {
 
     display: flex;
@@ -36,13 +35,13 @@
 
   .header__name {
 
-    @include montserrat-700($mobile-title-height, $mobile-subtitle-line-height);
+    @include montserrat-700($mobile-title, $base-line-height);
 
   }
 
   .header__description {
 
-    @include montserrat-500(1.2rem, 1.5rem);
+    @include montserrat-500($mobile-subtitle-medium);
 
   }
 

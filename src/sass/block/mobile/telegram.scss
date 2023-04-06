@@ -11,7 +11,7 @@
   .telegram__link {
 
     position: relative;
-    @include montserrat-500(0.9rem, 1.5rem, $color-white);
+    @include montserrat-500($mobile-subtitle-small, $base-line-height, $color-white);
     display: block;
     padding: 1em;
     width: 100%;

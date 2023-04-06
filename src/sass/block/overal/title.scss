@@ -3,3 +3,9 @@
   @include montserrat-500();
 
 }
+
+.title__small {
+
+  @include montserrat-700($base-subtitle-small, $base-line-height);
+
+}

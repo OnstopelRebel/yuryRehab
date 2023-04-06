@@ -2,12 +2,14 @@
 
   .title {
 
-    @include montserrat-500($mobile-subtitle-height, $mobile-subtitle-line-height);
+    @include montserrat-500($mobile-subtitle-large, $base-line-height);
 
   }
 
-  .title__button {
-    @include montserrat-500(1.5rem, 1.5rem);
+  .title__small {
+
+    @include montserrat-700($mobile-subtitle-small, $base-line-height);
+
   }
 
 }
