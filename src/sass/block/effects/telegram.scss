@@ -1,0 +1,14 @@
+.telegram__link:hover {
+
+  color: $color-white;
+  box-shadow: inset 0px 0px 30px 20px rgba(0,136,204,0.7);
+  opacity: 0.95;
+
+}
+
+.telegram__link:active {
+
+  box-shadow: inset 0 0 0 2px $color-blue-2;
+  opacity: 0.6;
+
+}
