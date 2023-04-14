@@ -1,0 +1,20 @@
+.avatar__img {
+
+  object-fit: cover;
+  border-radius: 50%;
+
+  &--header {
+
+    width: 180px;
+    height: 180px;
+
+  }
+
+  &--min {
+
+    width: 100px;
+    height: 100px;
+
+  }
+
+}
