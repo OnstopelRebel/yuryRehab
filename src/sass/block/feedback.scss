@@ -1,0 +1,32 @@
+.feedback__slide {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.feedback__img {
+
+  margin-bottom: 2em;
+
+}
+
+.feedback__comment {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.feedback__text {
+
+  max-width: 80%;
+
+}
+
+.feedback__avatar {
+  flex-shrink: 0;
+}
