@@ -3,4 +3,11 @@
   border: 1px solid $blockBorder-color;
   border-radius: 25px;
   @include blockShadows();
+
+  &--comment {
+
+    padding: 0.5em;
+    box-shadow: none;
+
+  }
 }
