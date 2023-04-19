@@ -19,51 +19,7 @@
 
 .feedback__img {
 
-  margin-bottom: 2em;
+  @include blockShadows();
 
 }
 
-.feedback__comment {
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 80%;
-
-}
-
-.feedback__comment-wrapper {
-
-  position: relative;
-  max-width: 80%;
-  align-items: start;
-  margin-right: 1.5em;
-
-  &:after {
-
-    content: "";
-    position: absolute;
-    width: 15px;
-    height: 15px;
-    border-right: 1px solid $blockBorder-color;
-    border-top: 1px solid $blockBorder-color;
-    transform: rotate(45deg) translateY(-50%);
-    right: -3px;
-    top: 50%;
-    background-color: $color-white;
-    z-index: 2;
-
-  }
-
-}
-
-.feedback__text {
-
-  max-width: 80%;
-  margin: 0 auto;
-
-}
-
-.feedback__avatar {
-  flex-shrink: 0;
-}
