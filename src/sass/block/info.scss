@@ -1,0 +1,56 @@
+.info {
+
+  display: flex;
+  gap: 0.5em;
+
+}
+
+.info__block {
+
+  border-radius: 15px;
+  padding: 0.6em;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.5);
+  border: .05em solid $color-avatar-border;
+
+
+  &--eso {
+
+    //border: 0.13em solid $color-blue-3;
+    background-color: $color-blue-3;
+
+  }
+
+  &--specialisation {
+
+    //border: 0.15em solid $color-red;
+    background-color: $color-red;
+
+  }
+
+}
+
+.info__title {
+
+  margin: 0;
+  max-width: 9em;
+  text-align: center;
+
+  &--eso {
+
+  @include montserrat-700($base-subtitle-small, 1.2em, $color-white);
+
+  }
+
+  &--specialisation {
+
+    @include montserrat-700($base-subtitle-small, 1.2em, $color-white);
+
+  }
+
+  & b {
+
+
+
+  }
+
+}

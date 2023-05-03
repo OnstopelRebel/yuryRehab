@@ -13,7 +13,7 @@
 
 @mixin montserrat-500($font-size: $base-subtitle-large, $line-height: $base-line-height, $text-color: $text-gray-color) {
 
-  font-family: "Montserrat", "Arial", sans-serif;
+  font-family: "Nunito", "Arial", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: $font-size;
@@ -25,7 +25,7 @@
 
 @mixin montserrat-700($font-size: $base-title, $line-height: $base-line-height, $text-color: $text-gray-color) {
 
-  font-family: "Montserrat", "Arial", sans-serif;
+  font-family: "Nunito", "Arial", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: $font-size;

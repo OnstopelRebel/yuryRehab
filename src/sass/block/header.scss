@@ -9,7 +9,11 @@
 
 .header__avatar {
 
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   padding: 10px 0;
+  width: 115%;
 
 }
 
@@ -33,3 +37,5 @@
   @include montserrat-500($base-subtitle-medium);
 
 }
+
+
